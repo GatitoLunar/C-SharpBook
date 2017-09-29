@@ -37,15 +37,15 @@ class GlazerCalc
 		
 		if (height > MAX_HEIGHT)
 		{
-			Console_WriteLine("Height is too large \n\n");
-			Console_WriteLine("Using maximum");
+			Console.WriteLine("Height is too large \n\n");
+			Console.WriteLine("Using maximum");
 			height = MAX_HEIGHT;
 		}
 		
 		if (height < MIN_HEIGHT)
 		{
-			Console_WriteLine("Height is too small \n\n");
-			Console_WriteLine("Using minimum");
+			Console.WriteLine("Height is too small \n\n");
+			Console.WriteLine("Using minimum");
 			height = MIN_HEIGHT;
 		}
 		
